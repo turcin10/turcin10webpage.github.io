@@ -1,0 +1,181 @@
+h1{
+        
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#beef{
+    text-align: center;
+    background-color:brown;
+    float:right;
+    background-position: top right;
+    padding: 3%;
+    border: 1px, solid;
+    border-top: 0px;
+}
+#sushi{
+    text-align: center;
+    background-color:chartreuse;
+    float:right;
+    background-position: top right;
+    padding: 3%;
+    border: 1px, solid;
+    border-top: 0px;
+}
+#chicken{
+    text-align: center;
+    background-color:darksalmon;
+    float:right;
+    background-position: top right;
+    padding: 3%;
+    border: 1px, solid;
+    border-top: 0px;
+}
+
+
+@media  (min-width:992px){
+
+    .col-lr-1, .col-lr-2, .col-lr-3, .col-lr-4, .col-lr-5, .col-lr-6, .col-lr-7, .col-lr-8, .col-lr-9, .col-lr-10, .col-lr-11, .col-lr-12 {
+        float: left;
+        border: 1px, solid;
+        margin: 3%;
+        padding-left: 1%;
+        padding-right: 1%;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: azure;
+    }
+    .col-lr-1{
+        width: 8.33%;
+    }
+    .col-lr-2{
+        width: 16.66%;
+    }
+    .col-lr-3{
+        width: 25%;
+    }
+    .col-lr-4{
+        width: 33%;
+    }
+    .col-lr-5{
+        width: 41.66%;
+    }
+    .col-lr-6{
+        width: 50%;
+    }
+    .col-lr-7{
+        width: 58.33%;
+    }
+    .col-lr-8{
+        width: 66.66%;
+    }
+    .col-lr-9{
+        width: 74.99%;
+    }
+    .col-lr-10{
+        width: 83.33%;
+    }
+    .col-lr-11{
+        width: 91.66%;
+    }
+    .col-lr-12{
+        width: 100%;
+    }
+} 
+ 
+.row{
+    width:100%;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+        float:left;
+        margin:3%;
+        border: 1px, solid;
+        padding-left: 1%;
+        padding-right: 1%;  
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: azure;
+    }
+    .col-md-1{
+        width: 8.33%;
+    }
+    .col-md-2{
+        width: 16.66%;
+    }
+    .col-md-3{
+        width: 25%;
+    }
+    .col-md-4{
+        width: 33%;
+    }
+    .col-md-5{
+        width: 41.66%;
+    }
+    .col-md-6{
+        width: 50%;
+    }
+    .col-md-7{
+        width: 58.33%;
+    }
+    .col-md-8{
+        width: 66.66%;
+    }
+    .col-md-9{
+        width: 74.99%;
+    }
+    .col-md-10{
+        width: 83.33%;
+    }
+    .col-md-11{
+        width: 91.66%;
+    }
+    .col-md-12{
+        width: 100%;
+    }
+}
+@media (max-width: 767px){
+    .col-mi-1, .col-mi-2, .col-mi-3, .col-mi-4, .col-mi-5, .col-mi-6, .col-mi-7, .col-mi-8, .col-mi-9, .col-mi-10, .col-mi-11, .col-mi-12{
+        float:left;
+        margin:3%;
+        border: 1px, solid;
+        padding-left: 1%;
+        padding-right: 1%;  
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: azure;
+    }
+    .col-mi-1{
+        width: 8.33%;
+    }
+    .col-mi-2{
+        width: 16.66%;
+    }
+    .col-mi-3{
+        width: 25%;
+    }
+    .col-mi-4{
+        width: 33%;
+    }
+    .col-mi-5{
+        width: 41.66%;
+    }
+    .col-mi-6{
+        width: 50%;
+    }
+    .col-mi-7{
+        width: 58.33%;
+    }
+    .col-mi-8{
+        width: 66.66%;
+    }
+    .col-mi-9{
+        width: 74.99%;
+    }
+    .col-mi-10{
+        width: 83.33%;
+    }
+    .col-mi-11{
+        width: 91.66%;
+    }
+    .col-mi-12{
+        width: 100%;
+    }
+    
+}
